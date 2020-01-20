@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Falko R. Döhring</title>
-    <link>falkoin.github.io/categories/</link>
+    <link>http://falko.in/categories/</link>
     <description>Recent content in Categories on Falko R. Döhring</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 20 Jan 2020 12:13:45 +0100</lastBuildDate>
     
-	<atom:link href="falkoin.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://falko.in/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>solutions</title>
-      <link>falkoin.github.io/categories/solutions/</link>
+      <link>http://falko.in/categories/solutions/</link>
       <pubDate>Mon, 20 Jan 2020 12:13:45 +0100</pubDate>
       
-      <guid>falkoin.github.io/categories/solutions/</guid>
+      <guid>http://falko.in/categories/solutions/</guid>
       <description></description>
     </item>
     
