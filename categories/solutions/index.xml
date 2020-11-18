@@ -6,11 +6,7 @@
     <description>Recent content in solutions on Falko R. Döhring</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jan 2020 12:13:45 +0100</lastBuildDate>
-    
-	<atom:link href="https://falko.in/categories/solutions/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 20 Jan 2020 12:13:45 +0100</lastBuildDate><atom:link href="https://falko.in/categories/solutions/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enabling additional languages for spell checking in Sublime Text 3</title>
       <link>https://falko.in/posts/sublime/</link>
