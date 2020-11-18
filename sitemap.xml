@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://falko.in/photo/</loc>
+    <lastmod>2020-11-18T10:48:47+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://falko.in/categories/</loc>
     <lastmod>2020-01-20T12:13:45+01:00</lastmod>
   </url>

@@ -8,6 +8,15 @@
     <language>en</language>
     <lastBuildDate>Mon, 20 Jan 2020 12:13:45 +0100</lastBuildDate><atom:link href="https://falko.in/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Images</title>
+      <link>https://falko.in/photo/</link>
+      <pubDate>Wed, 18 Nov 2020 10:48:47 +0100</pubDate>
+      
+      <guid>https://falko.in/photo/</guid>
+      <description>85mm f/5.6 1/5sec ISO 50&#34;     35mm f/1.8 1/200sec ISO 50&#34;       if (!jQuery) { alert(&#34;jquery is not loaded&#34;); } $( document ).ready(() = { const gallery = $(&#34;#gallery-0&#34;); gallery.justifiedGallery({ rowHeight : &#34;150&#34;, margins : &#34;5&#34;, border : 0, waitThumbnailsLoad : false, lastRow : &#34;justify&#34;, captions : false, }); let swipeboxInstance = null; gallery.on(&#39;jg.complete&#39;, () = { $(() = { $(&#39;.</description>
+    </item>
+    
+    <item>
       <title>Enabling additional languages for spell checking in Sublime Text 3</title>
       <link>https://falko.in/posts/sublime/</link>
       <pubDate>Mon, 20 Jan 2020 12:13:45 +0100</pubDate>
