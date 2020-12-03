@@ -22,7 +22,7 @@
       <pubDate>Wed, 18 Nov 2020 10:48:47 +0100</pubDate>
       
       <guid>https://falko.in/photo/</guid>
-      <description>6.6mm f/2.8 1/169sec ISO 20&#34;     6.6mm f/2.8 1/281sec ISO 20&#34;     3.99mm f/1.8 1/883sec ISO 20&#34;     35mm f/5.6 1/4sec ISO 50&#34;     35mm f/5.6 1/4sec ISO 50&#34;     10.3mm f/5.6 1/25sec ISO 100&#34;     85mm f/5.6 0.3sec ISO 50&#34;     100mm f/20 1/320sec ISO 200&#34;</description>
+      <description>/* Changes made here sadly only apply after restarting hugo server */ /* make 5px space between the button(filter options) in the filter bar */ .justified-gallery-filterbar { display: flex; justify-content: flex-start; flex-wrap: wrap; gap: 5px; } .justified-gallery-filterbar button { padding: 6px; border: 1px solid #fff; border-radius: 5px; background-color: transparent; font-weight: bold; color: #fff; line-height: 1em; } .justified-gallery-filterbar button:hover { text-decoration: underline; } .justified-gallery-filterbar button.selected { text-decoration: underline; background-color: #fff3; } .</description>
     </item>
     
     <item>

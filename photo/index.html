@@ -11,10 +11,10 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Images"/>
-<meta name="twitter:description" content="6.6mm f/2.8 1/169sec ISO 20&#34;     6.6mm f/2.8 1/281sec ISO 20&#34;     3.99mm f/1.8 1/883sec ISO 20&#34;     35mm f/5.6 1/4sec ISO 50&#34;     35mm f/5.6 1/4sec ISO 50&#34;     10.3mm f/5.6 1/25sec ISO 100&#34;     85mm f/5.6 0.3sec ISO 50&#34;     100mm f/20 1/320sec ISO 200&#34;"/>
+<meta name="twitter:description" content="/* Changes made here sadly only apply after restarting hugo server */ /* make 5px space between the button(filter options) in the filter bar */ .justified-gallery-filterbar { display: flex; justify-content: flex-start; flex-wrap: wrap; gap: 5px; } .justified-gallery-filterbar button { padding: 6px; border: 1px solid #fff; border-radius: 5px; background-color: transparent; font-weight: bold; color: #fff; line-height: 1em; } .justified-gallery-filterbar button:hover { text-decoration: underline; } .justified-gallery-filterbar button.selected { text-decoration: underline; background-color: #fff3; } ."/>
 
     <meta property="og:title" content="Images" />
-<meta property="og:description" content="6.6mm f/2.8 1/169sec ISO 20&#34;     6.6mm f/2.8 1/281sec ISO 20&#34;     3.99mm f/1.8 1/883sec ISO 20&#34;     35mm f/5.6 1/4sec ISO 50&#34;     35mm f/5.6 1/4sec ISO 50&#34;     10.3mm f/5.6 1/25sec ISO 100&#34;     85mm f/5.6 0.3sec ISO 50&#34;     100mm f/20 1/320sec ISO 200&#34;" />
+<meta property="og:description" content="/* Changes made here sadly only apply after restarting hugo server */ /* make 5px space between the button(filter options) in the filter bar */ .justified-gallery-filterbar { display: flex; justify-content: flex-start; flex-wrap: wrap; gap: 5px; } .justified-gallery-filterbar button { padding: 6px; border: 1px solid #fff; border-radius: 5px; background-color: transparent; font-weight: bold; color: #fff; line-height: 1em; } .justified-gallery-filterbar button:hover { text-decoration: underline; } .justified-gallery-filterbar button.selected { text-decoration: underline; background-color: #fff3; } ." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://falko.in/photo/" />
 <meta property="article:published_time" content="2020-11-18T10:48:47+01:00" />
@@ -169,6 +169,52 @@
 	
 
 	
+		 
+		/* Changes made here sadly only apply after restarting hugo server */
+/* make 5px space between the button(filter options) in the filter bar */
+.justified-gallery-filterbar {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 5px; }
+  .justified-gallery-filterbar button {
+    padding: 6px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    font-weight: bold;
+    color: #fff;
+    line-height: 1em; }
+    .justified-gallery-filterbar button:hover {
+      text-decoration: underline; }
+    .justified-gallery-filterbar button.selected {
+      text-decoration: underline;
+      background-color: #fff3; }
+    .justified-gallery-filterbar button svg {
+      width: 1em;
+      height: 1em;
+      transform: rotate(90deg);
+      transition: transform .2s linear; }
+    .justified-gallery-filterbar button:hover svg {
+      transform: rotate(90deg) scale(1.3); }
+
+.fulltab {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  min-height: 100%;
+  background-color: #222; }
+  .fulltab.justified-gallery-filterbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    background-color: #222;
+    padding: 5px;
+    margin: 0px; }
+
+	
 </style>
 
 
@@ -179,11 +225,14 @@
 <div id="gallery-0" class="justified-gallery">
 	
 		
+	
+		
 			
 
 			
 			
 			
+				
 				
 			
 
@@ -200,11 +249,16 @@
 					class="galleryImg"
 					
 						
+							title="Herbstinsel"
+						
 
 						
 							data-description="iPhone 8 Plus + iPhone 8 Plus back dual camera 6.6mm f/2.8<br/>6.6mm f/2.8 1/169sec ISO 20"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Herbstinsel&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;smartphone&#34;,&#34;abstract&#34;]}"
 						
 					
 					>
@@ -223,10 +277,14 @@
 
 						
 							
+								alt="Herbstinsel"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -235,6 +293,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -251,11 +310,16 @@
 					class="galleryImg"
 					
 						
+							title="Vernebelter Schwanenteich"
+						
 
 						
 							data-description="iPhone 8 Plus + iPhone 8 Plus back dual camera 6.6mm f/2.8<br/>6.6mm f/2.8 1/281sec ISO 20"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Vernebelter Schwanenteich&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;smartphone&#34;,&#34;landscape&#34;]}"
 						
 					
 					>
@@ -274,10 +338,14 @@
 
 						
 							
+								alt="Vernebelter Schwanenteich"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -286,6 +354,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -302,11 +371,16 @@
 					class="galleryImg"
 					
 						
+							title="Steine im Meer"
+						
 
 						
 							data-description="iPhone 8 Plus + iPhone 8 Plus back dual camera 3.99mm f/1.8<br/>3.99mm f/1.8 1/883sec ISO 20"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Steine im Meer&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;smartphone&#34;,&#34;abstract&#34;]}"
 						
 					
 					>
@@ -325,10 +399,14 @@
 
 						
 							
+								alt="Steine im Meer"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -337,6 +415,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -353,11 +432,16 @@
 					class="galleryImg"
 					
 						
+							title="Krumme Eiche"
+						
 
 						
 							data-description="ILCE-7M3 + SAMYANG AF 35mm F1.8<br/>35mm f/5.6 1/4sec ISO 50"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Krumme Eiche&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;woodland&#34;]}"
 						
 					
 					>
@@ -376,10 +460,14 @@
 
 						
 							
+								alt="Krumme Eiche"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -388,6 +476,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -404,11 +493,16 @@
 					class="galleryImg"
 					
 						
+							title="Versammlung der Birken"
+						
 
 						
 							data-description="ILCE-7M3 + SAMYANG AF 35mm F1.8<br/>35mm f/5.6 1/4sec ISO 50"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Versammlung der Birken&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;woodland&#34;]}"
 						
 					
 					>
@@ -427,10 +521,14 @@
 
 						
 							
+								alt="Versammlung der Birken"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -439,6 +537,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -455,13 +554,16 @@
 					class="galleryImg"
 					
 						
-							title="default"
+							title="Weinberg"
 						
 
 						
 							data-description="L1D-20c + <br/>10.3mm f/5.6 1/25sec ISO 100"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Weinberg&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;drone&#34;,&#34;landscape&#34;]}"
 						
 					
 					>
@@ -480,7 +582,7 @@
 
 						
 							
-								alt="default"
+								alt="Weinberg"
 							
 						
 					>
@@ -489,11 +591,14 @@
 		
 	
 		
+	
+		
 			
 
 			
 			
 			
+				
 				
 			
 
@@ -510,11 +615,16 @@
 					class="galleryImg"
 					
 						
+							title="Birke"
+						
 
 						
 							data-description="ILCE-7M3 + FE 85mm F1.8<br/>85mm f/5.6 0.3sec ISO 50"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Birke&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;woodland&#34;]}"
 						
 					
 					>
@@ -533,10 +643,14 @@
 
 						
 							
+								alt="Birke"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -545,6 +659,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -561,11 +676,16 @@
 					class="galleryImg"
 					
 						
+							title="Berge in den Wolken"
+						
 
 						
 							data-description="DMC-G81 + LUMIX G VARIO 35-100mm F2.8II<br/>100mm f/20 1/320sec ISO 200"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Berge in den Wolken&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;landscape&#34;]}"
 						
 					
 					>
@@ -584,10 +704,14 @@
 
 						
 							
+								alt="Berge in den Wolken"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -596,6 +720,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -612,11 +737,16 @@
 					class="galleryImg"
 					
 						
+							title="Herbstbirke"
+						
 
 						
 							data-description="ILCE-7M3 + SAMYANG AF 35mm F1.8<br/>35mm f/11 2sec ISO 50"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Herbstbirke&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;woodland&#34;]}"
 						
 					
 					>
@@ -635,10 +765,14 @@
 
 						
 							
+								alt="Herbstbirke"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -647,6 +781,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -663,11 +798,16 @@
 					class="galleryImg"
 					
 						
+							title="Nebelschwaden"
+						
 
 						
 							data-description="DMC-G81 + LUMIX G VARIO 12-35mm F2.8II<br/>35mm f/16 1/125sec ISO 200"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Nebelschwaden&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;landscape&#34;]}"
 						
 					
 					>
@@ -686,10 +826,14 @@
 
 						
 							
+								alt="Nebelschwaden"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -698,6 +842,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -714,11 +859,16 @@
 					class="galleryImg"
 					
 						
+							title="Gewitter"
+						
 
 						
 							data-description="DMC-FZ30 + <br/>7.4mm f/2.8 10sec ISO 80"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Gewitter&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;night&#34;]}"
 						
 					
 					>
@@ -737,10 +887,14 @@
 
 						
 							
+								alt="Gewitter"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -749,6 +903,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -765,11 +920,16 @@
 					class="galleryImg"
 					
 						
+							title="Herbstbirken"
+						
 
 						
 							data-description="ILCE-7M3 + FE 85mm F1.8<br/>85mm f/5.6 1/5sec ISO 50"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Herbstbirken&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;woodland&#34;]}"
 						
 					
 					>
@@ -788,10 +948,14 @@
 
 						
 							
+								alt="Herbstbirken"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -800,6 +964,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -816,11 +981,16 @@
 					class="galleryImg"
 					
 						
+							title="Brücke bei Nacht"
+						
 
 						
 							data-description="DMC-FZ30 + <br/>9.7mm f/7.1 60sec ISO 100"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Brücke bei Nacht&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;night&#34;]}"
 						
 					
 					>
@@ -839,10 +1009,14 @@
 
 						
 							
+								alt="Brücke bei Nacht"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -851,6 +1025,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -867,11 +1042,16 @@
 					class="galleryImg"
 					
 						
+							title="Rost"
+						
 
 						
 							data-description="iPhone 6 + iPhone 6 back camera 4.15mm f/2.2<br/>4.15mm f/2.2 1/590sec ISO 32"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Rost&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;abstract&#34;,&#34;smartphone&#34;]}"
 						
 					
 					>
@@ -890,10 +1070,14 @@
 
 						
 							
+								alt="Rost"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -902,6 +1086,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -918,11 +1103,16 @@
 					class="galleryImg"
 					
 						
+							title="Herbsttau"
+						
 
 						
 							data-description="ILCE-7M3 + SAMYANG AF 35mm F1.8<br/>35mm f/1.8 1/80sec ISO 50"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Herbsttau&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;abstract&#34;]}"
 						
 					
 					>
@@ -941,10 +1131,14 @@
 
 						
 							
+								alt="Herbsttau"
+							
 						
 					>
 				</a>
 			</div>
+		
+	
 		
 	
 		
@@ -953,6 +1147,7 @@
 			
 			
 			
+				
 				
 			
 
@@ -969,11 +1164,16 @@
 					class="galleryImg"
 					
 						
+							title="Eingesponnene Äre"
+						
 
 						
 							data-description="ILCE-7M3 + SAMYANG AF 35mm F1.8<br/>35mm f/1.8 1/200sec ISO 50"
 						
 
+						
+							
+							data-meta="{&#34;ColorLabels&#34;:null,&#34;ImageDescription&#34;:&#34;Eingesponnene Äre&#34;,&#34;Rating&#34;:null,&#34;Tags&#34;:[&#34;fineart&#34;]}"
 						
 					
 					>
@@ -991,6 +1191,8 @@
 						
 
 						
+							
+								alt="Eingesponnene Äre"
 							
 						
 					>
@@ -1013,7 +1215,7 @@
 		
 
 		gallery.justifiedGallery({
-			rowHeight : "150",
+			rowHeight : "200",
 			margins : "5",
 			border : 0,
 			waitThumbnailsLoad : false,
@@ -1043,6 +1245,150 @@
 		});
 
 		
+		
+
+			
+			
+			function createMetadataFilter(filterFunction) {
+				return (entry, index, array) => {
+					
+					let meta = $(entry).find("a").attr("data-meta");
+					meta = meta ? JSON.parse(meta) : {};
+					
+					let include = filterFunction(meta);
+
+					
+					
+					if(include) {
+						$(entry).find("a").addClass("galleryImg");
+					} else {
+						$(entry).find("a").removeClass("galleryImg");
+					}
+
+					return include;
+				}
+			}
+
+			
+			
+			function createTagFilter(tagsRegexString) {
+				const tagsRegex = RegExp(tagsRegexString);
+				return createMetadataFilter(meta => {
+					let tags = meta.Tags;
+					tags = tags ? tags : [];
+					return tags.some(tag => tagsRegex.test(tag));
+				});
+			};
+
+			
+			
+			function createImageDescriptionFilter(descriptionRegexString) {
+				const descriptionRegex = RegExp(descriptionRegexString);
+				return createMetadataFilter(meta => {
+					let imageDescription = meta.ImageDescription;
+					return imageDescription !== null && descriptionRegex.test(imageDescription);
+				});
+			};
+
+			
+			
+			function createRatingFilter(min, max) {
+				return createMetadataFilter(meta => {
+					let rating = meta.Rating;
+					if(rating === null){
+						rating = -1;
+					}
+					return rating >= min && rating <= max;
+				});
+			};
+
+			
+			
+			function createColorLabelFilter(color) {
+				color = color.charAt(0).toLowerCase()
+				return createMetadataFilter(meta => {
+					let colors = meta.ColorLabels;
+					return colors && colors.includes(color);
+				});
+			};
+
+			const filterOptions = [{label: 'All', tags: '.*'},{label: 'Landscape', tags: 'landscape'},{label: 'Woodland', tags: 'woodland'},{label: 'Smartphone', tags: 'smartphone'},{label: 'Drone', tags: 'drone'},{label: 'Abstract', tags: 'abstract'},{label: 'Night', tags: 'night'},{label: 'Fine Art', tags: 'fineart'}];
+			
+			
+			const filterbar = $("<div class='justified-gallery-filterbar'/>");
+			gallery.before(filterbar);
+
+			var wrapper = document.getElementById("gallery-0-wrapper");
+
+			
+			const expandIcon = '\u003csvg aria-hidden=\u0022true\u0022 focusable=\u0022false\u0022 data-prefix=\u0022fas\u0022 data-icon=\u0022expand-alt\u0022 role=\u0022img\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022 viewBox=\u00220 0 448 512\u0022\u003e\u003cpath fill=\u0022currentColor\u0022 d=\u0022M212.686 315.314L120 408l32.922 31.029c15.12 15.12 4.412 40.971-16.97 40.971h-112C10.697 480 0 469.255 0 456V344c0-21.382 25.803-32.09 40.922-16.971L72 360l92.686-92.686c6.248-6.248 16.379-6.248 22.627 0l25.373 25.373c6.249 6.248 6.249 16.378 0 22.627zm22.628-118.628L328 104l-32.922-31.029C279.958 57.851 290.666 32 312.048 32h112C437.303 32 448 42.745 448 56v112c0 21.382-25.803 32.09-40.922 16.971L376 152l-92.686 92.686c-6.248 6.248-16.379 6.248-22.627 0l-25.373-25.373c-6.249-6.248-6.249-16.378 0-22.627z\u0022\u003e\u003c\/path\u003e\u003c\/svg\u003e';
+			const compressIcon = '\u003csvg aria-hidden=\u0022true\u0022 focusable=\u0022false\u0022 data-prefix=\u0022fas\u0022 data-icon=\u0022compress-alt\u0022 role=\u0022img\u0022 xmlns=\u0022http:\/\/www.w3.org\/2000\/svg\u0022 viewBox=\u00220 0 448 512\u0022\u003e\u003cpath fill=\u0022currentColor\u0022 d=\u0022M4.686 427.314L104 328l-32.922-31.029C55.958 281.851 66.666 256 88.048 256h112C213.303 256 224 266.745 224 280v112c0 21.382-25.803 32.09-40.922 16.971L152 376l-99.314 99.314c-6.248 6.248-16.379 6.248-22.627 0L4.686 449.941c-6.248-6.248-6.248-16.379 0-22.627zM443.314 84.686L344 184l32.922 31.029c15.12 15.12 4.412 40.971-16.97 40.971h-112C234.697 256 224 245.255 224 232V120c0-21.382 25.803-32.09 40.922-16.971L296 136l99.314-99.314c6.248-6.248 16.379-6.248 22.627 0l25.373 25.373c6.248 6.248 6.248 16.379 0 22.627z\u0022\u003e\u003c\/path\u003e\u003c\/svg\u003e';
+
+			function setFulltab(activate) {
+				if(activate == wrapper.classList.contains("fulltab")){
+					return;
+				}
+
+				wrapper.classList.toggle("fulltab");
+				gallery.justifiedGallery({
+					rowHeight : "200" * (activate ? 1.5 : 1.0),
+					lastRow: (activate ? "nojustify": "justify"),
+					
+					refreshTime: 0,
+				});
+				
+				gallery.data('jg.controller').startImgAnalyzer();
+				fullTabButton.html(wrapper.classList.contains("fulltab") ? compressIcon : expandIcon)
+			};
+
+			const fullTabButton = $("<button/>");
+			fullTabButton.html(expandIcon);
+			fullTabButton.click(() => setFulltab(!wrapper.classList.contains("fulltab")));
+			filterbar.append(fullTabButton);
+			$(document).keyup(e => {
+				
+				if (e.keyCode === 27){
+					setFulltab(false);
+				}
+			});
+	
+			let first = true;
+			
+			filterOptions.forEach(filterConfig => {
+				let filter; 
+				if(filterConfig.tags) {
+					filter = createTagFilter(filterConfig.tags);
+				} else if(filterConfig.rating){
+					if(filterConfig.rating.includes("-")){
+						minMax = filterConfig.rating.split("-");  
+					} else {
+						minMax = [filterConfig.rating, filterConfig.rating];  
+					}
+					filter = createRatingFilter(parseInt(minMax[0]), parseInt(minMax[1]));
+				} else if(filterConfig.color_label){
+					filter = createColorLabelFilter(filterConfig.color_label);
+				} else if(filterConfig.description){
+					filter = createImageDescriptionFilter(filterConfig.description);
+				} else {
+					
+					filter = createMetadataFilter(meta => true);
+				}
+
+				const filterButton = $("<button/>");
+				filterButton.text(filterConfig.label);
+				filterButton.click(() => {
+					gallery.justifiedGallery({filter : filter});
+					
+					filterbar.find('.selected').removeClass('selected');
+					filterButton.addClass("selected");
+				});
+				filterbar.append(filterButton);
+
+				if(first) {
+					filterButton.trigger("click");
+					first = false;
+				}
+			});
 		
 	});
 </script>
