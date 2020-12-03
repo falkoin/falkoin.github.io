@@ -6,7 +6,16 @@
     <description>Recent content in solutions on Falko R. Döhring</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Jan 2020 12:13:45 +0100</lastBuildDate><atom:link href="https://falko.in/categories/solutions/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 03 Dec 2020 09:26:26 +0100</lastBuildDate><atom:link href="https://falko.in/categories/solutions/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enabling EpocCam with MS Teams</title>
+      <link>https://falko.in/posts/ms-teams/</link>
+      <pubDate>Thu, 03 Dec 2020 09:26:26 +0100</pubDate>
+      
+      <guid>https://falko.in/posts/ms-teams/</guid>
+      <description>For work I use the communication platform MS Teams, which makes having a webcam kind of mandatory. Since I used to work with my laptop in clamshell mode, I wasn&amp;rsquo;t able to use the internal webcam. That&amp;rsquo;s when I discovered EpocCam, a software, which makes it possible to use a smartphone as webcam. Using your smartphone is not only pretty convenient but has also very good quality when compared with a standard webcam.</description>
+    </item>
+    
     <item>
       <title>Enabling additional languages for spell checking in Sublime Text 3</title>
       <link>https://falko.in/posts/sublime/</link>
