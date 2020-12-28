@@ -6,7 +6,18 @@
     <description>Recent content in Posts on Falko R. Döhring</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Dec 2020 09:26:26 +0100</lastBuildDate><atom:link href="https://falko.in/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 28 Dec 2020 12:28:32 +0100</lastBuildDate><atom:link href="https://falko.in/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using the command-line in macOS to resize images</title>
+      <link>https://falko.in/posts/resize-images-with-the-command-line/</link>
+      <pubDate>Mon, 28 Dec 2020 12:28:32 +0100</pubDate>
+      
+      <guid>https://falko.in/posts/resize-images-with-the-command-line/</guid>
+      <description>Creating the photo section for this blog I had the need to resize many images at once. Sure enough, I didn&amp;rsquo;t want to do this by hand and also found it cumbersome to create a batch process in an image manipulation program like Affinity Photo or Photoshop.
+After a quick web-search I stumbled upon the tool sips.
+sips -Z 2000 *.jpg This command resizes all jpg files in a folder to a maximum height or width of 2000, while keeping the aspect ratio.</description>
+    </item>
+    
     <item>
       <title>Enabling EpocCam with MS Teams</title>
       <link>https://falko.in/posts/ms-teams/</link>
