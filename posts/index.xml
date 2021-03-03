@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Falko R. Döhring</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Dec 2020 12:28:32 +0100</lastBuildDate><atom:link href="https://falko.in/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 03 Mar 2021 09:17:33 +0100</lastBuildDate><atom:link href="https://falko.in/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Changing handbrake&#39;s automatic aspect ratio</title>
+      <link>https://falko.in/posts/handbrake_aspect_ratio/</link>
+      <pubDate>Wed, 03 Mar 2021 09:17:33 +0100</pubDate>
+      
+      <guid>https://falko.in/posts/handbrake_aspect_ratio/</guid>
+      <description>From time to time I do screen recordings, which include a PowerPoint with an aspect ratio of 4:3. When encoding these video files with handbrake it tries to be smart about it and tries to automatically detect the aspect ratio of the video, which usually ends up being 4:3 and cropping the rest of the video. But there is an easy fix for that. Go to the picture tab and change the cropping option to 0 in all directions.</description>
+    </item>
+    
     <item>
       <title>Using the command-line in macOS to resize images</title>
       <link>https://falko.in/posts/resize-images-with-the-command-line/</link>
