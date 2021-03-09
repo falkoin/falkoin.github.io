@@ -6,7 +6,17 @@
     <description>Recent content on Falko R. Döhring</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Mar 2021 09:17:33 +0100</lastBuildDate><atom:link href="https://falko.in/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 09 Mar 2021 14:34:50 +0100</lastBuildDate><atom:link href="https://falko.in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fixing color/sharpness issues with external displays on macOS (RGB/YCBCR)</title>
+      <link>https://falko.in/posts/rgb_mode_dell_macos/</link>
+      <pubDate>Tue, 09 Mar 2021 14:34:50 +0100</pubDate>
+      
+      <guid>https://falko.in/posts/rgb_mode_dell_macos/</guid>
+      <description>The first time I connected my BenQ XL2730 display to my MacBook the image looked very blurry and I started googling the issue.
+I found out that the issue is related to the color-mode a display is identified with, either RGB or YCBCR. Usually you want your display to be connected with RGB color, but my BenQ was fixed on YCBR without any option to changing it. After more research I found a script to modify some system files so the display is forced into RGB mode.</description>
+    </item>
+    
     <item>
       <title>Changing handbrake&#39;s automatic aspect ratio detection</title>
       <link>https://falko.in/posts/handbrake_aspect_ratio/</link>
