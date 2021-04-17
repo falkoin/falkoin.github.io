@@ -39,15 +39,6 @@ sips -Z 2000 *.jpg This command resizes all jpg files in a folder to a maximum h
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://falko.in/projects/</link>
-      <pubDate>Thu, 03 Dec 2020 10:53:46 +0100</pubDate>
-      
-      <guid>https://falko.in/projects/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Enabling EpocCam with MS Teams</title>
       <link>https://falko.in/posts/ms-teams/</link>
       <pubDate>Thu, 03 Dec 2020 09:26:26 +0100</pubDate>
