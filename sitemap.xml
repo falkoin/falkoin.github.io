@@ -1,119 +1,73 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://falko.in/categories/</loc>
     <lastmod>2021-03-09T14:34:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/tags/display-issues/</loc>
     <lastmod>2021-03-09T14:34:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/</loc>
     <lastmod>2021-03-09T14:34:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/posts/rgb_mode_dell_macos/</loc>
     <lastmod>2021-03-09T14:34:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/categories/macos/</loc>
     <lastmod>2021-03-09T14:34:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/posts/</loc>
     <lastmod>2021-03-09T14:34:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/categories/solutions/</loc>
     <lastmod>2021-03-09T14:34:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/tags/</loc>
     <lastmod>2021-03-09T14:34:50+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/posts/handbrake_aspect_ratio/</loc>
     <lastmod>2021-03-03T09:17:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/tags/handbrake/</loc>
     <lastmod>2021-03-03T09:17:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/tags/video/</loc>
     <lastmod>2021-03-03T09:17:33+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/tags/resize/</loc>
     <lastmod>2020-12-28T12:28:32+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/tags/sips/</loc>
     <lastmod>2020-12-28T12:28:32+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/posts/resize-images-with-the-command-line/</loc>
     <lastmod>2020-12-28T12:28:32+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/posts/ms-teams/</loc>
     <lastmod>2020-12-03T09:26:26+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/tags/epoccam/</loc>
     <lastmod>2020-12-03T09:26:26+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/tags/ms-teams/</loc>
     <lastmod>2020-12-03T09:26:26+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/photo/</loc>
     <lastmod>2020-11-18T10:48:47+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/posts/sublime/</loc>
     <lastmod>2020-01-20T12:13:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/tags/spell-checking/</loc>
     <lastmod>2020-01-20T12:13:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/tags/sublime-text-3/</loc>
     <lastmod>2020-01-20T12:13:45+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/about/</loc>
     <lastmod>2019-11-16T19:13:10+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://falko.in/series/</loc>
   </url>
-  
 </urlset>
