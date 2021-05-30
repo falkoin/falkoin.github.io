@@ -68,6 +68,9 @@
     <loc>https://falko.in/about/</loc>
     <lastmod>2019-11-16T19:13:10+01:00</lastmod>
   </url><url>
+    <loc>https://falko.in/photo_stories/</loc>
+    <priority>0</priority>
+  </url><url>
     <loc>https://falko.in/series/</loc>
   </url>
 </urlset>
