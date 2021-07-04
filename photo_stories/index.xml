@@ -5,6 +5,16 @@
     <link>https://falko.in/photo_stories/</link>
     <description>Recent content on Falko R. Döhring</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://falko.in/photo_stories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <lastBuildDate>Mon, 24 May 2021 18:02:12 +0200</lastBuildDate><atom:link href="https://falko.in/photo_stories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bridge</title>
+      <link>https://falko.in/photo_stories/bridge/</link>
+      <pubDate>Mon, 24 May 2021 18:02:12 +0200</pubDate>
+      
+      <guid>https://falko.in/photo_stories/bridge/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

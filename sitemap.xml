@@ -2,13 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://falko.in/photo_stories/</loc>
+    <lastmod>2021-05-24T18:02:12+02:00</lastmod>
+    <priority>0</priority>
+  </url><url>
+    <loc>https://falko.in/photo_stories/bridge/</loc>
+    <lastmod>2021-05-24T18:02:12+02:00</lastmod>
+  </url><url>
+    <loc>https://falko.in/</loc>
+    <lastmod>2021-05-24T18:02:12+02:00</lastmod>
+  </url><url>
     <loc>https://falko.in/categories/</loc>
     <lastmod>2021-03-09T14:34:50+01:00</lastmod>
   </url><url>
     <loc>https://falko.in/tags/display-issues/</loc>
-    <lastmod>2021-03-09T14:34:50+01:00</lastmod>
-  </url><url>
-    <loc>https://falko.in/</loc>
     <lastmod>2021-03-09T14:34:50+01:00</lastmod>
   </url><url>
     <loc>https://falko.in/posts/rgb_mode_dell_macos/</loc>
@@ -67,9 +74,6 @@
   </url><url>
     <loc>https://falko.in/about/</loc>
     <lastmod>2019-11-16T19:13:10+01:00</lastmod>
-  </url><url>
-    <loc>https://falko.in/photo_stories/</loc>
-    <priority>0</priority>
   </url><url>
     <loc>https://falko.in/series/</loc>
   </url>
